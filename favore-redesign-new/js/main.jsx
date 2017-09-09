@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import styled from "styled-components";
 import {ContactForm} from "./forms.jsx";
 import {PanelWithStats} from "./panels.jsx";
-import {FooterMenu} from "./menus.jsx";
+import {MenuFixed} from "./menus.jsx";
 import {PromotedBoxesSlider} from "./main_promoted.jsx";
 import {ProfitMaxBoxes} from "./profit_max_box.jsx";
 import {Footer} from "./footer.jsx";
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <PanelWithStats/>
         <PromotedBoxesSlider/>
         <ProfitMaxBoxes/>
-        <FooterMenu/>
         <Footer/>
+        <MenuFixed/>
       </div>
     }
   }

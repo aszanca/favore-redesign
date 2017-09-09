@@ -4,7 +4,6 @@ import styled from "styled-components";
 import {ContactForm} from "./forms.jsx";
 import {MainMenu} from "./menus.jsx";
 
-
 class BackgroundSlider extends React.Component {
 
   constructor(props)
@@ -13,7 +12,7 @@ class BackgroundSlider extends React.Component {
     this.state = {
       slider1Display: "inline",
       slider2Display: "none",
-      slider3Display: "none",
+      slider3Display: "none"
     }
   }
 
@@ -36,7 +35,7 @@ class BackgroundSlider extends React.Component {
 
   render() {
 
-    const BackgroundSliderStyle = styled.img`
+    const BackgroundSliderStyle = styled.img `
       width: 100vw;
       height: 85vh;
       object-fit: cover;
@@ -44,30 +43,26 @@ class BackgroundSlider extends React.Component {
       position: absolute;
       z-index: -1;
 
-  display: ${props => props.slide1 && this.state.slider1Display};
-	display: ${props => props.slide2 && this.state.slider2Display};
-  display: ${props => props.slide3 && this.state.slider3Display};
-
-
-      `;
+      display: ${props => props.slide1 && this.state.slider1Display};
+      display: ${props => props.slide2 && this.state.slider2Display};
+      display: ${props => props.slide3 && this.state.slider3Display};
+`;
 
     return (
-    <div>
-
-      <BackgroundSliderStyle slide1 src="./images/slide1.jpg" ></BackgroundSliderStyle>
-      <BackgroundSliderStyle slide2 src="./images/slide2.jpg" ></BackgroundSliderStyle>
-      <BackgroundSliderStyle slide3 src="./images/slide3.jpg" ></BackgroundSliderStyle>
-
-      <MainMenu/>
-      <ContactForm/>
-
-    </div>
-  )
+      <div>
+        <BackgroundSliderStyle slide1 src="./images/slide1.jpg"></BackgroundSliderStyle>
+        <BackgroundSliderStyle slide2 src="./images/slide2.jpg"></BackgroundSliderStyle>
+        <BackgroundSliderStyle slide3 src="./images/slide3.jpg"></BackgroundSliderStyle>
+      </div>
+    )
   }
 }
 
 export class BackgroundSliderWithForm extends React.Component {
   render() {
-    return <BackgroundSlider/>
+    return <div><BackgroundSlider/>
+    <MainMenu/>
+    <ContactForm/>
+    </div>
   }
 }

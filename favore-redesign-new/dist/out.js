@@ -12366,10 +12366,17 @@ exports.ContactForm = exports.ContactFormHeader = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\ncolor: white;\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 300;\ntext-shadow: 1px 1px 8px grey;\n\n\n"], ["\ncolor: white;\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 300;\ntext-shadow: 1px 1px 8px grey;\n\n\n"]),
-    _templateObject2 = _taggedTemplateLiteral(["\n\nborder-radius: 0.4rem;\nmargin-top: 0.5vh;\nheight: 4vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\nwidth: 500px;\n\nbackground-color: ", ";\n\n"], ["\n\nborder-radius: 0.4rem;\nmargin-top: 0.5vh;\nheight: 4vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\nwidth: 500px;\n\nbackground-color: ", ";\n\n"]),
-    _templateObject3 = _taggedTemplateLiteral(["\n\nfont-family: helvetica, arial, sans-serif;\ncolor: white;\ntext-shadow: 1px 1px 10px grey;\nfont-weight: 100;\nletter-spacing: 1.5px;\nfont-size: 16px;\ndisplay: flex;\njustify-content: center;\nalign-content: center;\nalign-items: center;\nflex-direction: column;\n\n"], ["\n\nfont-family: helvetica, arial, sans-serif;\ncolor: white;\ntext-shadow: 1px 1px 10px grey;\nfont-weight: 100;\nletter-spacing: 1.5px;\nfont-size: 16px;\ndisplay: flex;\njustify-content: center;\nalign-content: center;\nalign-items: center;\nflex-direction: column;\n\n"]),
-    _templateObject4 = _taggedTemplateLiteral(["\nbackground-color: hsla(214, 77%, 33%, 0.8);\nheight: 55vh;\nwidth: 75vw;\njustify-content: center;\nalign-content: center;\nalign-items: center;\n"], ["\nbackground-color: hsla(214, 77%, 33%, 0.8);\nheight: 55vh;\nwidth: 75vw;\njustify-content: center;\nalign-content: center;\nalign-items: center;\n"]);
+var _templateObject = _taggedTemplateLiteral(["\ncolor: white;\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 300;\ntext-shadow: 1px 1px 8px grey;\npadding: 2vh;\nfont-size: 1.5rem;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\nfont-size: 1.7rem;\nalign-items: center;\n}\n\n@media (min-width: 1025px) {\n  font-size: 1.8rem;\n  align-items: center;\n\t}\n"], ["\ncolor: white;\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 300;\ntext-shadow: 1px 1px 8px grey;\npadding: 2vh;\nfont-size: 1.5rem;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\nfont-size: 1.7rem;\nalign-items: center;\n}\n\n@media (min-width: 1025px) {\n  font-size: 1.8rem;\n  align-items: center;\n\t}\n"]),
+    _templateObject2 = _taggedTemplateLiteral(["\nborder-radius: 0.4rem;\nmargin-top: 0.5vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\nmargin: 0.5vh;\nwidth: 85vw;\nheight: 5vh;\n\nbackground-color: ", ";\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 5vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 40px;\n }\n"], ["\nborder-radius: 0.4rem;\nmargin-top: 0.5vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\nmargin: 0.5vh;\nwidth: 85vw;\nheight: 5vh;\n\nbackground-color: ", ";\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 5vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 40px;\n }\n"]),
+    _templateObject3 = _taggedTemplateLiteral(["\nfont-family: helvetica, arial, sans-serif;\ncolor: white;\ntext-shadow: 1px 1px 10px grey;\nfont-weight: 100;\nletter-spacing: 1.5px;\nfont-size: 16px;\ndisplay: flex;\njustify-content: center;\nalign-content: center;\nalign-items: center;\nflex-direction: column;\n"], ["\nfont-family: helvetica, arial, sans-serif;\ncolor: white;\ntext-shadow: 1px 1px 10px grey;\nfont-weight: 100;\nletter-spacing: 1.5px;\nfont-size: 16px;\ndisplay: flex;\njustify-content: center;\nalign-content: center;\nalign-items: center;\nflex-direction: column;\n"]),
+    _templateObject4 = _taggedTemplateLiteral(["\nbackground-color: hsla(214, 77%, 33%, 0.8);\nheight: 52vh;\nwidth: 92vw;\njustify-content: center;\nalign-content: center;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 70vw;\n  height: 59vh;\n}\n\n@media (min-width: 1025px) {\n  width: 65vw;\n  height: 60vh;\n\n }\n"], ["\nbackground-color: hsla(214, 77%, 33%, 0.8);\nheight: 52vh;\nwidth: 92vw;\njustify-content: center;\nalign-content: center;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 70vw;\n  height: 59vh;\n}\n\n@media (min-width: 1025px) {\n  width: 65vw;\n  height: 60vh;\n\n }\n"]),
+    _templateObject5 = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-direction: column;\n align-content: center;\n  justify-content: center;\n   align-items: center;\n"], ["\ndisplay: flex;\nflex-direction: column;\n align-content: center;\n  justify-content: center;\n   align-items: center;\n"]),
+    _templateObject6 = _taggedTemplateLiteral(["\nwidth: 85vw;\nheight: 8vh;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 18vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 150px;\n }\n"], ["\nwidth: 85vw;\nheight: 8vh;\nalign-items: center;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 18vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 150px;\n }\n"]),
+    _templateObject7 = _taggedTemplateLiteral(["\nwidth: 85vw;\nheight: 4vh;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 3vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 25px;\n }\n"], ["\nwidth: 85vw;\nheight: 4vh;\n\n@media (min-width: 769px) and (max-width: 1024px){\n  width: 60vw;\n  height: 3vh;\n}\n\n@media (min-width: 1025px) {\n  width: 600px;\n  height: 25px;\n }\n"]),
+    _templateObject8 = _taggedTemplateLiteral(["\ncolor: red;\n\n"], ["\ncolor: red;\n\n"]),
+    _templateObject9 = _taggedTemplateLiteral(["\ncolor: green;\npadding-top: 1vh;\n"], ["\ncolor: green;\npadding-top: 1vh;\n"]),
+    _templateObject10 = _taggedTemplateLiteral(["\npadding-top: 1vh;\n"], ["\npadding-top: 1vh;\n"]),
+    _templateObject11 = _taggedTemplateLiteral(["\npadding-top:1vh;\ndisplay:flex;\njustify-content:center;\nalign-content:center;\n"], ["\npadding-top:1vh;\ndisplay:flex;\njustify-content:center;\nalign-content:center;\n"]);
 
 var _react = __webpack_require__(12);
 
@@ -12407,11 +12414,10 @@ var ContactFormHeader = exports.ContactFormHeader = function (_React$Component) 
     value: function render() {
 
       var H1 = _styledComponents2.default.h1(_templateObject);
-
       return _react2.default.createElement(
         H1,
         null,
-        " 200 000 sprawdzonych firm czeka na zlecenia od Ciebie "
+        "200 000 sprawdzonych firm czeka na zlecenia od Ciebie"
       );
     }
   }]);
@@ -12455,7 +12461,7 @@ var SubmitButton = function (_React$Component2) {
       return _react2.default.createElement(
         SubmitButton,
         { color: true, onMouseEnter: this.ButtonMouseEnter, onMouseLeave: this.ButtonMouseLeave },
-        " Wy\u015Blij >> "
+        "Wy\u015Blij >>"
       );
     }
   }]);
@@ -12464,7 +12470,6 @@ var SubmitButton = function (_React$Component2) {
 }(_react2.default.Component);
 
 ;
-
 var ContactForm = exports.ContactForm = function (_React$Component3) {
   _inherits(ContactForm, _React$Component3);
 
@@ -12490,8 +12495,8 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
     };
 
     _this4.handleSubmit = function (event) {
-      event.preventDefault();
 
+      event.preventDefault();
       if (_this4.state.content === " ") {
         _this4.setState({ contentValid: "Proszę opisać czego potrzebujesz." });
       } else {
@@ -12517,16 +12522,13 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
       };
 
       if (_this4.state.phone !== " " && _this4.state.email.indexOf("@") !== -1 && _this4.state.content !== " " && _this4.state.postCode === " ") {
-        _this4.setState({
-          formValid: "Dzi\u0119kujemy za przes\u0142anie zlecenia! Niebawem wykonawcy skontaktuj\u0105 si\u0119 z Tob\u0105!"
-        });
+        _this4.setState({ formValid: "Dzi\u0119kujemy za przes\u0142anie zlecenia! Niebawem wykonawcy skontaktuj\u0105 si\u0119 z Tob\u0105!" });
       } else {
         _this4.setState({ formValid: " " });
       };
     };
 
     _this4.state = {
-
       email: " ",
       emailValid: " ",
       content: " ",
@@ -12548,18 +12550,30 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
 
       var ContactFormBox = _styledComponents2.default.div(_templateObject4);
 
+      var FormAll = _styledComponents2.default.div(_templateObject5);
+
+      var Textarea = _styledComponents2.default.textarea(_templateObject6);
+
+      var Input = _styledComponents2.default.input(_templateObject7);
+
+      var Validation = _styledComponents2.default.div(_templateObject8);
+
+      var FormValidation = _styledComponents2.default.p(_templateObject9);
+
+      var FormInputsTitle = _styledComponents2.default.div(_templateObject10);
+
+      var SubmitButtonBox = _styledComponents2.default.div(_templateObject11);
+
       return _react2.default.createElement(
-        "div",
-        { style: { display: "flex", flexDirection: "column", alignContent: "center", justifyContent: "center", alignItems: "center" } },
+        FormAll,
+        null,
         _react2.default.createElement(ContactFormHeader, null),
         _react2.default.createElement(
           ContactFormBox,
           null,
           _react2.default.createElement(
-            "div",
-            { style: {
-                color: "red"
-              } },
+            Validation,
+            null,
             _react2.default.createElement(
               "p",
               null,
@@ -12581,10 +12595,8 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
               this.state.phoneValid
             ),
             _react2.default.createElement(
-              "p",
-              { style: {
-                  color: "green"
-                } },
+              FormValidation,
+              null,
               this.state.formValid
             )
           ),
@@ -12598,11 +12610,11 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
                 Label,
                 null,
                 _react2.default.createElement(
-                  "div",
-                  { style: { paddingTop: "1vh" } },
+                  FormInputsTitle,
+                  null,
                   "Co jest do zrobienia?"
                 ),
-                _react2.default.createElement("textarea", { style: { width: "500px", height: "120px" }, value: this.state.content, onChange: this.handleContentChange })
+                _react2.default.createElement(Textarea, { value: this.state.content, onChange: this.handleContentChange })
               )
             ),
             _react2.default.createElement(
@@ -12612,11 +12624,11 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
                 Label,
                 null,
                 _react2.default.createElement(
-                  "div",
-                  { style: { paddingTop: "1vh" } },
+                  FormInputsTitle,
+                  null,
                   "E-mail:"
                 ),
-                _react2.default.createElement("input", { style: { width: "500px", height: "20px" }, type: "text", value: this.state.email, onChange: this.handleEmailChange })
+                _react2.default.createElement(Input, { type: "text", value: this.state.email, onChange: this.handleEmailChange })
               )
             ),
             _react2.default.createElement(
@@ -12626,11 +12638,11 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
                 Label,
                 null,
                 _react2.default.createElement(
-                  "div",
-                  { style: { paddingTop: "1vh" } },
+                  FormInputsTitle,
+                  null,
                   "Tw\xF3j kod pocztowy:"
                 ),
-                _react2.default.createElement("input", { style: { width: "500px", height: "20px" }, type: "text", value: this.state.postCode, onChange: this.handlePostCodeChange })
+                _react2.default.createElement(Input, { type: "text", value: this.state.postCode, onChange: this.handlePostCodeChange })
               )
             ),
             _react2.default.createElement(
@@ -12640,26 +12652,26 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
                 Label,
                 null,
                 _react2.default.createElement(
-                  "div",
-                  { style: { paddingTop: "1vh" } },
+                  FormInputsTitle,
+                  null,
                   "Tw\xF3j numer telefonu (opcjonalnie):"
                 ),
-                _react2.default.createElement("input", { style: { width: "500px", height: "20px" }, type: "text", value: this.state.phone, onChange: this.handlePhoneChange })
+                _react2.default.createElement(Input, { type: "text", value: this.state.phone, onChange: this.handlePhoneChange })
               )
             ),
             _react2.default.createElement(
               Label,
               null,
               _react2.default.createElement(
-                "div",
-                { style: { paddingTop: "1vh" } },
+                FormInputsTitle,
+                null,
                 _react2.default.createElement("input", { type: "checkbox", value: "agree" }),
                 "Akceptuj\u0119 regulamin"
               )
             ),
             _react2.default.createElement(
-              "div",
-              { style: { paddingTop: "1vh", display: "flex", justifyContent: "center", alignContent: "center" } },
+              SubmitButtonBox,
+              null,
               _react2.default.createElement(SubmitButton, null)
             )
           )
@@ -12671,8 +12683,6 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
   return ContactForm;
 }(_react2.default.Component);
 
-;
-
 /***/ }),
 /* 86 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -12683,14 +12693,18 @@ var ContactForm = exports.ContactForm = function (_React$Component3) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.MainMenu = exports.FooterMenu = undefined;
+exports.MainMenu = exports.MenuFixed = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n\nborder-radius: 0.4rem;\nmargin-top: 2vh;\nheight: 4vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\n\nbackground-color: ", ";\n\n"], ["\n\nborder-radius: 0.4rem;\nmargin-top: 2vh;\nheight: 4vh;\ncolor: white;\nfont-size: 1rem;\ntext-transform: uppercase;\nfont-family: Helvetica, sans-serif;\nfont-weight: 300;\nborder-style: none;\noutline: none;\n\nbackground-color: ", ";\n\n"]),
-    _templateObject2 = _taggedTemplateLiteral(["\npadding-top: 1.5vh;\ndisplay: flex;\njustify-content: space-around;\n"], ["\npadding-top: 1.5vh;\ndisplay: flex;\njustify-content: space-around;\n"]),
-    _templateObject3 = _taggedTemplateLiteral(["\n\n\n  display: ", ";\n  display: ", ";\n    "], ["\n\n\n  display: ", ";\n  display: ", ";\n    "]),
-    _templateObject4 = _taggedTemplateLiteral(["\n  color: \"white\";\n  fill: currentColor;\n\n\n  "], ["\n  color: \"white\";\n  fill: currentColor;\n\n\n  "]);
+var _templateObject = _taggedTemplateLiteral(["\n  position: fixed;\n  display: flex;\n  list-style-type: none;\n  left: 0px;\n  bottom: 0px;\n  height: 30px;\n  width: 90vw;\n  "], ["\n  position: fixed;\n  display: flex;\n  list-style-type: none;\n  left: 0px;\n  bottom: 0px;\n  height: 30px;\n  width: 90vw;\n  "]),
+    _templateObject2 = _taggedTemplateLiteral(["\n    border-radius: 0.4rem;\n    margin-top: 2vh;\n    height: 4vh;\n    color: white;\n    font-size: 1rem;\n    text-transform: uppercase;\n    font-family: Helvetica, sans-serif;\n    font-weight: 300;\n    border-style: none;\n    outline: none;\n\n    background-color: ", ";\n\n    @media (max-width: 666px) {\n    order: 1;\n    height: 5vh;\n    width: 88vw;\n    align-items: center;\n    margin-right: 8vw;\n    \t}\n    "], ["\n    border-radius: 0.4rem;\n    margin-top: 2vh;\n    height: 4vh;\n    color: white;\n    font-size: 1rem;\n    text-transform: uppercase;\n    font-family: Helvetica, sans-serif;\n    font-weight: 300;\n    border-style: none;\n    outline: none;\n\n    background-color: ", ";\n\n    @media (max-width: 666px) {\n    order: 1;\n    height: 5vh;\n    width: 88vw;\n    align-items: center;\n    margin-right: 8vw;\n    \t}\n    "]),
+    _templateObject3 = _taggedTemplateLiteral(["\n    padding-top: 1vh;\n    width: 150px;\n    height: 50px;\n    "], ["\n    padding-top: 1vh;\n    width: 150px;\n    height: 50px;\n    "]),
+    _templateObject4 = _taggedTemplateLiteral(["\n    padding-top: 1.5vh;\n    display: flex;\n    justify-content: space-between;\n    flex-wrap: wrap;\n    "], ["\n    padding-top: 1.5vh;\n    display: flex;\n    justify-content: space-between;\n    flex-wrap: wrap;\n    "]),
+    _templateObject5 = _taggedTemplateLiteral(["\n\n\n    display: ", ";\n    display: ", ";\n      "], ["\n\n\n    display: ", ";\n    display: ", ";\n      "]),
+    _templateObject6 = _taggedTemplateLiteral(["\n    color: \"white\";\n    fill: currentColor;\n    "], ["\n    color: \"white\";\n    fill: currentColor;\n    "]),
+    _templateObject7 = _taggedTemplateLiteral(["\n      top: 0;\n      right: 25px;\n      margin-left: 50px;\n  width: 30px;\n  height: 30px;\n    "], ["\n      top: 0;\n      right: 25px;\n      margin-left: 50px;\n  width: 30px;\n  height: 30px;\n    "]),
+    _templateObject8 = _taggedTemplateLiteral(["\n\n    height: 100%;\n      position: fixed;\n      z-index: 1;\n      top: 0;\n      right: 0;\n      background-color: darkgrey;\n      overflow-x: hidden;\n      padding-top: 3vh;\n      transition: 0.5s;\n      font-family: helvetica, arial, sans-serif;\n\n\n    > li {\n      padding: 1vh 2vw 1vh 3vw;\n      text-decoration: none;\n      font-size: 25px;\n      color: #818181;\n      display: block;\n      transition: 0.3s;\n      text-align: right;\n      line-height: 30px;\n      align-items: left;\n      font-size: 1rem;\n      font-weight: 200;\n\n            a {\n            \t\t\t\ttext-decoration-line: none;\n\n            \t\t\t\t&:link {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n            \t\t\t\t&:visited {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n            \t\t\t\t&:active {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n\n  \t\t\t\t}\n\n    "], ["\n\n    height: 100%;\n      position: fixed;\n      z-index: 1;\n      top: 0;\n      right: 0;\n      background-color: darkgrey;\n      overflow-x: hidden;\n      padding-top: 3vh;\n      transition: 0.5s;\n      font-family: helvetica, arial, sans-serif;\n\n\n    > li {\n      padding: 1vh 2vw 1vh 3vw;\n      text-decoration: none;\n      font-size: 25px;\n      color: #818181;\n      display: block;\n      transition: 0.3s;\n      text-align: right;\n      line-height: 30px;\n      align-items: left;\n      font-size: 1rem;\n      font-weight: 200;\n\n            a {\n            \t\t\t\ttext-decoration-line: none;\n\n            \t\t\t\t&:link {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n            \t\t\t\t&:visited {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n            \t\t\t\t&:active {\n            \t\t\t\t\tcolor: white;\n            \t\t\t\t}\n\n  \t\t\t\t}\n\n    "]);
 
 var _react = __webpack_require__(12);
 
@@ -12714,29 +12728,24 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var FooterMenu = exports.FooterMenu = function (_React$Component) {
-  _inherits(FooterMenu, _React$Component);
+var MenuFixed = exports.MenuFixed = function (_React$Component) {
+  _inherits(MenuFixed, _React$Component);
 
-  function FooterMenu() {
-    _classCallCheck(this, FooterMenu);
+  function MenuFixed() {
+    _classCallCheck(this, MenuFixed);
 
-    return _possibleConstructorReturn(this, (FooterMenu.__proto__ || Object.getPrototypeOf(FooterMenu)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (MenuFixed.__proto__ || Object.getPrototypeOf(MenuFixed)).apply(this, arguments));
   }
 
-  _createClass(FooterMenu, [{
+  _createClass(MenuFixed, [{
     key: "render",
     value: function render() {
+
+      var MenuFixedBox = _styledComponents2.default.ul(_templateObject);
+
       return _react2.default.createElement(
-        "ul",
-        { style: {
-            position: "fixed",
-            display: "flex",
-            listStyleType: "none",
-            left: "0px",
-            bottom: "0px",
-            height: "30px",
-            width: "90vw"
-          } },
+        MenuFixedBox,
+        null,
         _react2.default.createElement(
           "li",
           null,
@@ -12777,7 +12786,7 @@ var FooterMenu = exports.FooterMenu = function (_React$Component) {
     }
   }]);
 
-  return FooterMenu;
+  return MenuFixed;
 }(_react2.default.Component);
 
 var Button = function (_React$Component2) {
@@ -12807,14 +12816,14 @@ var Button = function (_React$Component2) {
     value: function render() {
       var _this3 = this;
 
-      var Button = _styledComponents2.default.button(_templateObject, function (props) {
+      var Button = _styledComponents2.default.button(_templateObject2, function (props) {
         return props.color && _this3.state.backgroundColor;
       });
 
       return _react2.default.createElement(
         Button,
         { color: true, onMouseEnter: this.ButtonMouseEnter, onMouseLeave: this.ButtonMouseLeave },
-        "\u015Awiadczysz us\u0142ugi? Zobacz zlecenia >>"
+        "\u015Awiadczysz us\u0142ugi? Zobacz zlecenia"
       );
     }
   }]);
@@ -12824,31 +12833,10 @@ var Button = function (_React$Component2) {
 
 ;
 
-var Logo = function (_React$Component3) {
-  _inherits(Logo, _React$Component3);
+var Logo = _styledComponents2.default.img(_templateObject3);
 
-  function Logo() {
-    _classCallCheck(this, Logo);
-
-    return _possibleConstructorReturn(this, (Logo.__proto__ || Object.getPrototypeOf(Logo)).apply(this, arguments));
-  }
-
-  _createClass(Logo, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement("img", { style: {
-          paddingTop: "1vh",
-          width: "150px",
-          height: "50px"
-        }, src: "images/logo_favore_hp_white.png" });
-    }
-  }]);
-
-  return Logo;
-}(_react2.default.Component);
-
-var MainMenu = exports.MainMenu = function (_React$Component4) {
-  _inherits(MainMenu, _React$Component4);
+var MainMenu = exports.MainMenu = function (_React$Component3) {
+  _inherits(MainMenu, _React$Component3);
 
   function MainMenu() {
     _classCallCheck(this, MainMenu);
@@ -12860,12 +12848,12 @@ var MainMenu = exports.MainMenu = function (_React$Component4) {
     key: "render",
     value: function render() {
 
-      var Menu = _styledComponents2.default.menu(_templateObject2);
+      var Menu = _styledComponents2.default.menu(_templateObject4);
 
       return _react2.default.createElement(
         Menu,
         null,
-        _react2.default.createElement(Logo, null),
+        _react2.default.createElement(Logo, { src: "images/logo_favore_hp_white.png" }),
         _react2.default.createElement(Button, null),
         _react2.default.createElement(CategoryMenu, null)
       );
@@ -12875,41 +12863,45 @@ var MainMenu = exports.MainMenu = function (_React$Component4) {
   return MainMenu;
 }(_react2.default.Component);
 
-var CategoryMenu = function (_React$Component5) {
-  _inherits(CategoryMenu, _React$Component5);
+var CategoryMenu = function (_React$Component4) {
+  _inherits(CategoryMenu, _React$Component4);
 
   function CategoryMenu(props) {
     _classCallCheck(this, CategoryMenu);
 
-    var _this6 = _possibleConstructorReturn(this, (CategoryMenu.__proto__ || Object.getPrototypeOf(CategoryMenu)).call(this, props));
+    var _this5 = _possibleConstructorReturn(this, (CategoryMenu.__proto__ || Object.getPrototypeOf(CategoryMenu)).call(this, props));
 
-    _this6.handleHamburgerClick = function () {
-      _this6.setState({ hamburgerIcon: "none", dropdownMenu: "flex" });
+    _this5.handleHamburgerClick = function () {
+      _this5.setState({ hamburgerIcon: "none", dropdownMenu: "flex" });
     };
 
-    _this6.handleDropdownClick = function () {
-      _this6.setState({ hamburgerIcon: "flex", dropdownMenu: "none" });
+    _this5.handleDropdownClick = function () {
+      _this5.setState({ hamburgerIcon: "flex", dropdownMenu: "none" });
     };
 
-    _this6.state = {
+    _this5.state = {
       hamburgerIcon: "flex",
       dropdownMenu: "none"
     };
-    return _this6;
+    return _this5;
   }
 
   _createClass(CategoryMenu, [{
     key: "render",
     value: function render() {
-      var _this7 = this;
+      var _this6 = this;
 
-      var HamburgerMenu = _styledComponents2.default.div(_templateObject3, function (props) {
-        return props.hamburger && _this7.state.hamburgerIcon;
+      var HamburgerMenu = _styledComponents2.default.div(_templateObject5, function (props) {
+        return props.hamburger && _this6.state.hamburgerIcon;
       }, function (props) {
-        return props.dropdown && _this7.state.dropdownMenu;
+        return props.dropdown && _this6.state.dropdownMenu;
       });
 
-      var Icon = _styledComponents2.default.img(_templateObject4);
+      var Icon = _styledComponents2.default.img(_templateObject6);
+
+      var IconClose = _styledComponents2.default.img(_templateObject7);
+
+      var Ul = _styledComponents2.default.ul(_templateObject8);
 
       return _react2.default.createElement(
         "menu",
@@ -12923,10 +12915,13 @@ var CategoryMenu = function (_React$Component5) {
           HamburgerMenu,
           { dropdown: true, onClick: this.handleDropdownClick },
           _react2.default.createElement(
-            "ul",
-            { style: {
-                listStyleType: "none"
-              } },
+            Ul,
+            null,
+            _react2.default.createElement(
+              "li",
+              null,
+              _react2.default.createElement(IconClose, { src: "images/close.png" })
+            ),
             _react2.default.createElement(
               "li",
               null,
@@ -13035,11 +13030,6 @@ var CategoryMenu = function (_React$Component5) {
                 "Pozosta\u0142e"
               )
             )
-          ),
-          _react2.default.createElement(
-            "div",
-            null,
-            "Schowaj menu"
           )
         )
       );
@@ -13112,8 +13102,8 @@ document.addEventListener('DOMContentLoaded', function () {
           _react2.default.createElement(_panels.PanelWithStats, null),
           _react2.default.createElement(_main_promoted.PromotedBoxesSlider, null),
           _react2.default.createElement(_profit_max_box.ProfitMaxBoxes, null),
-          _react2.default.createElement(_menus.FooterMenu, null),
-          _react2.default.createElement(_footer.Footer, null)
+          _react2.default.createElement(_footer.Footer, null),
+          _react2.default.createElement(_menus.MenuFixed, null)
         );
       }
     }]);
@@ -27012,10 +27002,10 @@ exports.PanelWithStats = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n\ndisplay: flex;\npadding-top: 10vh;\nalign-content: center;\njustify-content: center;\n\n"], ["\n\ndisplay: flex;\npadding-top: 10vh;\nalign-content: center;\njustify-content: center;\n\n"]),
-    _templateObject2 = _taggedTemplateLiteral(["\n\nfont-family: helvetica, arial, sans-serif;\nfont-size: 1.7rem;\nfont-weight: ", ";\ntext-shadow: 1px #134c95;\npadding: 0 0.5vw 0 0.5vw;\n\n\ncolor: ", ";\n\n"], ["\n\nfont-family: helvetica, arial, sans-serif;\nfont-size: 1.7rem;\nfont-weight: ", ";\ntext-shadow: 1px #134c95;\npadding: 0 0.5vw 0 0.5vw;\n\n\ncolor: ", ";\n\n"]),
-    _templateObject3 = _taggedTemplateLiteral(["\n\nfont-family: helvetica, arial, sans-serif;\nfont-size: 1rem;\nfont-weight: ", ";\ntext-shadow: 1px #134c95;\npadding: 0 0.5vw 0 0.5vw;\n\n\ncolor: ", ";\n\n"], ["\n\nfont-family: helvetica, arial, sans-serif;\nfont-size: 1rem;\nfont-weight: ", ";\ntext-shadow: 1px #134c95;\npadding: 0 0.5vw 0 0.5vw;\n\n\ncolor: ", ";\n\n"]),
-    _templateObject4 = _taggedTemplateLiteral(["\ncolor: orange;\n\n"], ["\ncolor: orange;\n\n"]);
+var _templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    padding-top: 10vh;\n    align-content: center;\n    justify-content: center;\n    "], ["\n    display: flex;\n    padding-top: 10vh;\n    align-content: center;\n    justify-content: center;\n    "]),
+    _templateObject2 = _taggedTemplateLiteral(["\n    font-family: helvetica, arial, sans-serif;\n    font-size: 1.7rem;\n    font-weight: ", ";\n    text-shadow: 1px #134c95;\n    padding: 0 0.5vw 0 0.5vw;\n\n    color: ", ";\n    "], ["\n    font-family: helvetica, arial, sans-serif;\n    font-size: 1.7rem;\n    font-weight: ", ";\n    text-shadow: 1px #134c95;\n    padding: 0 0.5vw 0 0.5vw;\n\n    color: ", ";\n    "]),
+    _templateObject3 = _taggedTemplateLiteral(["\n    font-family: helvetica, arial, sans-serif;\n    font-size: 1rem;\n    font-weight: ", ";\n    text-shadow: 1px #134c95;\n    padding: 0 0.5vw 0 0.5vw;\n\n    color: ", ";\n    "], ["\n    font-family: helvetica, arial, sans-serif;\n    font-size: 1rem;\n    font-weight: ", ";\n    text-shadow: 1px #134c95;\n    padding: 0 0.5vw 0 0.5vw;\n\n    color: ", ";\n    "]),
+    _templateObject4 = _taggedTemplateLiteral(["\n    color: orange;\n    "], ["\n    color: orange;\n    "]);
 
 var _react = __webpack_require__(12);
 
@@ -27133,9 +27123,11 @@ exports.PromotedBoxesSlider = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\nheight: 30vh;\n\t\t\twidth: 300px;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tbackground-size: contain;\n\t\t\tmargin: 2.5vw;\n\t\t\tdisplay: flex;\n\t\t\talign-items: flex-end;\n      background-image: url(", ");\n"], ["\nheight: 30vh;\n\t\t\twidth: 300px;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tbackground-size: contain;\n\t\t\tmargin: 2.5vw;\n\t\t\tdisplay: flex;\n\t\t\talign-items: flex-end;\n      background-image: url(", ");\n"]),
-    _templateObject2 = _taggedTemplateLiteral(["\nheight: 6vh;\nbox-sizing: border-box;\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  position: absolute;\n  padding-left: 0.5vw;\n  color: hsl(214, 77%, 33%);\n  font-size: 1rem;\n  display: ", ";\n\n"], ["\nheight: 6vh;\nbox-sizing: border-box;\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  position: absolute;\n  padding-left: 0.5vw;\n  color: hsl(214, 77%, 33%);\n  font-size: 1rem;\n  display: ", ";\n\n"]),
-    _templateObject3 = _taggedTemplateLiteral(["\nheight: 6.5vh;\nwidth: 45vw;\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 400;\nfont-size: 1.3rem;\nbackground-color: hsla(360, 100%, 100%, 0.7);\npadding-left: 0.5vw;\npadding-top: 0.5vh;\n"], ["\nheight: 6.5vh;\nwidth: 45vw;\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 400;\nfont-size: 1.3rem;\nbackground-color: hsla(360, 100%, 100%, 0.7);\npadding-left: 0.5vw;\npadding-top: 0.5vh;\n"]);
+var _templateObject = _taggedTemplateLiteral(["\n    height: 30vh;\n\t\twidth: 300px;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-size: contain;\n\t\tmargin: 2.5vw;\n\t\tdisplay: flex;\n\t\talign-items: flex-end;\n    background-image: url(", ");\n    "], ["\n    height: 30vh;\n\t\twidth: 300px;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-size: contain;\n\t\tmargin: 2.5vw;\n\t\tdisplay: flex;\n\t\talign-items: flex-end;\n    background-image: url(", ");\n    "]),
+    _templateObject2 = _taggedTemplateLiteral(["\n    height: 6vh;\n    box-sizing: border-box;\n    font-family: helvetica, arial, sans-serif;\n    font-weight: 400;\n    position: absolute;\n    padding-left: 0.5vw;\n    color: hsl(214, 77%, 33%);\n    font-size: 1rem;\n    display: ", ";\n    "], ["\n    height: 6vh;\n    box-sizing: border-box;\n    font-family: helvetica, arial, sans-serif;\n    font-weight: 400;\n    position: absolute;\n    padding-left: 0.5vw;\n    color: hsl(214, 77%, 33%);\n    font-size: 1rem;\n    display: ", ";\n    "]),
+    _templateObject3 = _taggedTemplateLiteral(["\n    height: 6.5vh;\n    width: 45vw;\n    color: hsl(214, 77%, 33%);\n    font-family: helvetica, arial, sans-serif;\n    font-weight: 400;\n    font-size: 1.3rem;\n    background-color: hsla(360, 100%, 100%, 0.7);\n    padding-left: 0.5vw;\n    padding-top: 0.5vh;\n    "], ["\n    height: 6.5vh;\n    width: 45vw;\n    color: hsl(214, 77%, 33%);\n    font-family: helvetica, arial, sans-serif;\n    font-weight: 400;\n    font-size: 1.3rem;\n    background-color: hsla(360, 100%, 100%, 0.7);\n    padding-left: 0.5vw;\n    padding-top: 0.5vh;\n    "]),
+    _templateObject4 = _taggedTemplateLiteral(["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.2rem;\n    align: right;\n    "], ["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.2rem;\n    align: right;\n    "]),
+    _templateObject5 = _taggedTemplateLiteral(["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.7rem;\n    margin-right: 10vw;\n    "], ["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.7rem;\n    margin-right: 10vw;\n    "]);
 
 var _react = __webpack_require__(12);
 
@@ -27206,9 +27198,7 @@ var PromotedBox = function (_React$Component) {
         _react2.default.createElement(
           Panel,
           { display: true },
-          " ",
           this.props.localization,
-          " ",
           this.props.price
         )
       );
@@ -27231,10 +27221,20 @@ var PromotedBoxesSlider = exports.PromotedBoxesSlider = function (_React$Compone
     _this3.SliderClick = function (event) {
       if (_this3.state.slider1Display == "flex") {
         _this3.setState({ slider1Display: "none", slider2Display: "flex", slider3Display: "none" });
-      } else if (_this3.state.slider2Display == "block") {
+      } else if (_this3.state.slider2Display == "flex") {
         _this3.setState({ slider1Display: "none", slider2Display: "none", slider3Display: "flex" });
-      } else if (_this3.state.slider3Display == "block") {
+      } else if (_this3.state.slider3Display == "flex") {
         _this3.setState({ slider1Display: "flex", slider2Display: "none", slider3Display: "none" });
+      }
+    };
+
+    _this3.SliderLeftClick = function (event) {
+      if (_this3.state.slider1Display == "flex") {
+        _this3.setState({ slider1Display: "none", slider2Display: "none", slider3Display: "flex" });
+      } else if (_this3.state.slider2Display == "flex") {
+        _this3.setState({ slider1Display: "flex", slider2Display: "none", slider3Display: "none" });
+      } else if (_this3.state.slider3Display == "flex") {
+        _this3.setState({ slider1Display: "none", slider2Display: "flex", slider3Display: "none" });
       }
     };
 
@@ -27254,12 +27254,12 @@ var PromotedBoxesSlider = exports.PromotedBoxesSlider = function (_React$Compone
       this.intervalId = setInterval(function () {
         if (_this4.state.slider1Display == "flex") {
           _this4.setState({ slider1Display: "none", slider2Display: "flex", slider3Display: "none" });
-        } else if (_this4.state.slider2Display == "block") {
+        } else if (_this4.state.slider2Display == "flex") {
           _this4.setState({ slider1Display: "none", slider2Display: "none", slider3Display: "flex" });
-        } else if (_this4.state.slider3Display == "block") {
+        } else if (_this4.state.slider3Display == "flex") {
           _this4.setState({ slider1Display: "flex", slider2Display: "none", slider3Display: "none" });
         }
-      }, 10000);
+      }, 4000);
     }
   }, {
     key: "componentWillUnmount",
@@ -27275,7 +27275,6 @@ var PromotedBoxesSlider = exports.PromotedBoxesSlider = function (_React$Compone
         flexDirection: "row",
         flexWrap: "wrap",
         justifyContent: "center"
-
       };
 
       var mySlider2Style = {
@@ -27292,13 +27291,17 @@ var PromotedBoxesSlider = exports.PromotedBoxesSlider = function (_React$Compone
         justifyContent: "center"
       };
 
+      var All = _styledComponents2.default.div(_templateObject4);
+
+      var Promoted = _styledComponents2.default.h2(_templateObject5);
+
       return _react2.default.createElement(
         "div",
         null,
         _react2.default.createElement(
-          "h3",
+          Promoted,
           null,
-          " Promowane og\u0142oszenia "
+          "Promowane og\u0142oszenia"
         ),
         _react2.default.createElement(
           "div",
@@ -27340,14 +27343,17 @@ var PromotedBoxesSlider = exports.PromotedBoxesSlider = function (_React$Compone
           _react2.default.createElement(PromotedBox, { title: "Doradztwo finansowe", localization: "Wroc\u0142aw", price: "100z\u0142/h", imageUrl: "images/main_promoted_3.jpg" })
         ),
         _react2.default.createElement(
-          "span",
-          null,
-          "Zobacz wszystkie promowane og\u0142oszenia > "
-        ),
-        _react2.default.createElement(
-          "button",
-          { onClick: this.SliderClick },
-          "Slider"
+          "div",
+          { style: {
+              display: "flex",
+              justifyContent: "right",
+              alignContent: "right"
+            } },
+          _react2.default.createElement(
+            All,
+            { onClick: this.SliderClick },
+            "Przewi\u0144"
+          )
         )
       );
     }
@@ -27370,8 +27376,9 @@ exports.ProfitMaxBoxes = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n  height: 15vh;\n  \t\t\twidth: 300px;\n  \t\t\tbackground-repeat: no-repeat;\n  \t\t\tmargin: 2.5vw;\n  \t\t\tdisplay: flex;\n  \t\t\talign-items: flex-end;\n        background-image: url(", ");\n  "], ["\n  height: 15vh;\n  \t\t\twidth: 300px;\n  \t\t\tbackground-repeat: no-repeat;\n  \t\t\tmargin: 2.5vw;\n  \t\t\tdisplay: flex;\n  \t\t\talign-items: flex-end;\n        background-image: url(", ");\n  "]),
-    _templateObject2 = _taggedTemplateLiteral(["\n  height: 6.5vh;\n  width: 300px;\n  color: hsl(214, 77%, 33%);\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  font-size: 1.3rem;\n  background-color: hsla(360, 100%, 100%, 0.7);\n  padding-left: 0.5vw;\n  padding-top: 0.5vh;\n  border-bottom-color: ", ";\n  "], ["\n  height: 6.5vh;\n  width: 300px;\n  color: hsl(214, 77%, 33%);\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  font-size: 1.3rem;\n  background-color: hsla(360, 100%, 100%, 0.7);\n  padding-left: 0.5vw;\n  padding-top: 0.5vh;\n  border-bottom-color: ", ";\n  "]);
+var _templateObject = _taggedTemplateLiteral(["\n  height: 15vh;\n  width: 300px;\n  background-repeat: no-repeat;\n  margin: 2.5vw;\n  display: flex;\n  align-items: flex-end;\n  background-image: url(", ");\n  "], ["\n  height: 15vh;\n  width: 300px;\n  background-repeat: no-repeat;\n  margin: 2.5vw;\n  display: flex;\n  align-items: flex-end;\n  background-image: url(", ");\n  "]),
+    _templateObject2 = _taggedTemplateLiteral(["\n  height: 6.5vh;\n  width: 300px;\n  color: hsl(214, 77%, 33%);\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  font-size: 1.3rem;\n  background-color: hsla(360, 100%, 100%, 0.7);\n  padding-left: 0.5vw;\n  padding-top: 0.5vh;\n  border-bottom-color: ", ";\n  "], ["\n  height: 6.5vh;\n  width: 300px;\n  color: hsl(214, 77%, 33%);\n  font-family: helvetica, arial, sans-serif;\n  font-weight: 400;\n  font-size: 1.3rem;\n  background-color: hsla(360, 100%, 100%, 0.7);\n  padding-left: 0.5vw;\n  padding-top: 0.5vh;\n  border-bottom-color: ", ";\n  "]),
+    _templateObject3 = _taggedTemplateLiteral(["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.7rem;\n    margin-right: 10vw;\n    "], ["\n    font-family: helvetica, arial, sans-serif;\n    color: #134c95;\n    font-size: 1.7rem;\n    margin-right: 10vw;\n    "]);
 
 var _react = __webpack_require__(12);
 
@@ -27458,17 +27465,23 @@ var ProfitMaxBoxes = exports.ProfitMaxBoxes = function (_React$Component2) {
     key: "render",
     value: function render() {
 
+      var Promoted = _styledComponents2.default.h2(_templateObject3);
+
       return _react2.default.createElement(
         "div",
         null,
         _react2.default.createElement(
-          "h3",
+          Promoted,
           null,
-          " Ostatnie og\u0142oszenia z pakietem Max i Profit "
+          "Ostatnie og\u0142oszenia z pakietem Max i Profit"
         ),
         _react2.default.createElement(
           "div",
-          { style: { display: "flex", flexWrap: "wrap", justifyContent: "center" } },
+          { style: {
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center"
+            } },
           _react2.default.createElement(ProfitMaxBox, { title: "Chemiczne czyszczenie wymiennik\xF3w ciep\u0142a", localization: "Wroc\u0142aw", price: "100z\u0142/h", imageUrl: "images/main_promoted_1.jpg" }),
           _react2.default.createElement(ProfitMaxBox, { title: "Mycie okien", localization: "Wroc\u0142aw", price: "100z\u0142/h", imageUrl: "images/main_promoted_2.jpg" }),
           _react2.default.createElement(ProfitMaxBox, { title: "Remonty i wyko\u0144czenia wn\u0119trz", localization: "Wroc\u0142aw", price: "100z\u0142/h", imageUrl: "images/main_promoted_3.jpg" }),
@@ -27506,8 +27519,9 @@ exports.Footer = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 200;\n\n\n"], ["\n\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 200;\n\n\n"]),
-    _templateObject2 = _taggedTemplateLiteral(["\n\nlist-style-type: none;\n\n"], ["\n\nlist-style-type: none;\n\n"]);
+var _templateObject = _taggedTemplateLiteral(["\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 200;\n"], ["\ncolor: hsl(214, 77%, 33%);\nfont-family: helvetica, arial, sans-serif;\nfont-weight: 200;\n"]),
+    _templateObject2 = _taggedTemplateLiteral(["\nlist-style-type: none;\n"], ["\nlist-style-type: none;\n"]),
+    _templateObject3 = _taggedTemplateLiteral(["\ndisplay: flex;\njustify-content: space-around;\nalign-items: center;\n"], ["\ndisplay: flex;\njustify-content: space-around;\nalign-items: center;\n"]);
 
 var _react = __webpack_require__(12);
 
@@ -27544,15 +27558,17 @@ var FooterMenu = function (_React$Component) {
     key: "render",
     value: function render() {
 
-      var Column = _styledComponents2.default.div(_templateObject);
+      var FooterMenuColumn = _styledComponents2.default.div(_templateObject);
 
-      var List = _styledComponents2.default.ul(_templateObject2);
+      var Ul = _styledComponents2.default.ul(_templateObject2);
+
+      var FooterMenuContainer = _styledComponents2.default.div(_templateObject3);
 
       return _react2.default.createElement(
-        "div",
-        { style: { display: "flex", justifyContent: "space-around", alignItems: "center" } },
+        FooterMenuContainer,
+        null,
         _react2.default.createElement(
-          Column,
+          FooterMenuColumn,
           null,
           _react2.default.createElement(
             "h4",
@@ -27560,7 +27576,7 @@ var FooterMenu = function (_React$Component) {
             "FAVORE.PL"
           ),
           _react2.default.createElement(
-            List,
+            Ul,
             null,
             _react2.default.createElement(
               "li",
@@ -27590,7 +27606,7 @@ var FooterMenu = function (_React$Component) {
           )
         ),
         _react2.default.createElement(
-          Column,
+          FooterMenuColumn,
           null,
           _react2.default.createElement(
             "h4",
@@ -27598,7 +27614,7 @@ var FooterMenu = function (_React$Component) {
             "WSP\xD3\u0141PRACA"
           ),
           _react2.default.createElement(
-            List,
+            Ul,
             null,
             _react2.default.createElement(
               "li",
@@ -27628,7 +27644,7 @@ var FooterMenu = function (_React$Component) {
           )
         ),
         _react2.default.createElement(
-          Column,
+          FooterMenuColumn,
           null,
           _react2.default.createElement(
             "h4",
@@ -27636,7 +27652,7 @@ var FooterMenu = function (_React$Component) {
             "STRONY FAVORE.PL"
           ),
           _react2.default.createElement(
-            List,
+            Ul,
             null,
             _react2.default.createElement(
               "li",
@@ -27666,7 +27682,7 @@ var FooterMenu = function (_React$Component) {
           )
         ),
         _react2.default.createElement(
-          Column,
+          FooterMenuColumn,
           null,
           _react2.default.createElement(
             "h4",
@@ -27674,7 +27690,7 @@ var FooterMenu = function (_React$Component) {
             "TEMATY POMOCY"
           ),
           _react2.default.createElement(
-            List,
+            Ul,
             null,
             _react2.default.createElement(
               "li",
@@ -27710,6 +27726,8 @@ var FooterMenu = function (_React$Component) {
   return FooterMenu;
 }(_react2.default.Component);
 
+;
+
 var FooterLine = function (_React$Component2) {
   _inherits(FooterLine, _React$Component2);
 
@@ -27724,49 +27742,51 @@ var FooterLine = function (_React$Component2) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        { style: { display: "flex" } },
+        { style: {
+            display: "flex"
+          } },
         _react2.default.createElement(
           "div",
           null,
           _react2.default.createElement(
             "span",
             null,
-            " O NAS "
+            "O NAS"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " REKLAMA "
+            "REKLAMA"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " PRACA "
+            "PRACA"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " KONTAKT "
+            "KONTAKT"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " PROGRAM PARTNERSKI "
+            "PROGRAM PARTNERSKI"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " POMOC "
+            "POMOC"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " ARCHIWUM "
+            "ARCHIWUM"
           ),
           _react2.default.createElement(
             "span",
             null,
-            " TAGI "
+            "TAGI"
           )
         ),
         _react2.default.createElement(
@@ -27775,13 +27795,12 @@ var FooterLine = function (_React$Component2) {
           _react2.default.createElement(
             "span",
             null,
-            " KORZYSTANIE Z PORTALU OZNACZA AKCEPTACJ\u0118 ",
+            "KORZYSTANIE Z PORTALU OZNACZA AKCEPTACJ\u0118",
             _react2.default.createElement(
               "a",
               { href: "/regulations" },
-              " REGULAMINU "
-            ),
-            " "
+              "REGULAMINU"
+            )
           )
         )
       );
@@ -27829,7 +27848,7 @@ exports.BackgroundSliderWithForm = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n      width: 100vw;\n      height: 85vh;\n      object-fit: cover;\n      float: left;\n      position: absolute;\n      z-index: -1;\n\n  display: ", ";\n\tdisplay: ", ";\n  display: ", ";\n\n\n      "], ["\n      width: 100vw;\n      height: 85vh;\n      object-fit: cover;\n      float: left;\n      position: absolute;\n      z-index: -1;\n\n  display: ", ";\n\tdisplay: ", ";\n  display: ", ";\n\n\n      "]);
+var _templateObject = _taggedTemplateLiteral(["\n      width: 100vw;\n      height: 85vh;\n      object-fit: cover;\n      float: left;\n      position: absolute;\n      z-index: -1;\n\n      display: ", ";\n      display: ", ";\n      display: ", ";\n"], ["\n      width: 100vw;\n      height: 85vh;\n      object-fit: cover;\n      float: left;\n      position: absolute;\n      z-index: -1;\n\n      display: ", ";\n      display: ", ";\n      display: ", ";\n"]);
 
 var _react = __webpack_require__(12);
 
@@ -27911,9 +27930,7 @@ var BackgroundSlider = function (_React$Component) {
         null,
         _react2.default.createElement(BackgroundSliderStyle, { slide1: true, src: "./images/slide1.jpg" }),
         _react2.default.createElement(BackgroundSliderStyle, { slide2: true, src: "./images/slide2.jpg" }),
-        _react2.default.createElement(BackgroundSliderStyle, { slide3: true, src: "./images/slide3.jpg" }),
-        _react2.default.createElement(_menus.MainMenu, null),
-        _react2.default.createElement(_forms.ContactForm, null)
+        _react2.default.createElement(BackgroundSliderStyle, { slide3: true, src: "./images/slide3.jpg" })
       );
     }
   }]);
@@ -27933,7 +27950,13 @@ var BackgroundSliderWithForm = exports.BackgroundSliderWithForm = function (_Rea
   _createClass(BackgroundSliderWithForm, [{
     key: "render",
     value: function render() {
-      return _react2.default.createElement(BackgroundSlider, null);
+      return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(BackgroundSlider, null),
+        _react2.default.createElement(_menus.MainMenu, null),
+        _react2.default.createElement(_forms.ContactForm, null)
+      );
     }
   }]);
 
